@@ -1,5 +1,8 @@
 /* sprite.h */
 
+#ifndef SPRITE_H
+#define SPRITE_H
+
 #include"gba.h"
 
 /* オブジェクト番号numのスプライトを指すポインタ */
@@ -56,3 +59,5 @@ u32 SpriteGetHeight(u32 num);
 u32 SpriteIsVisibleX(u32 num);
 u32 SpriteIsVisibleY(u32 num);
 u32 SpriteIsVisible(u32 num);
+
+#endif
